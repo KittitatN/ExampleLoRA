@@ -155,7 +155,7 @@ void Set_ConfigABP(void)
   //  Serial.println(str1);
 
   //*********************************************************************
-  Serial2_String_Write("mac set_deveui 9C65F9FFFE2318DE");
+  Serial2_String_Write("mac set_deveui xxxxxxxxxxxxxxxx");
   str1 = "";
   delay(250);
   str1 = Serial2.readString();
@@ -166,7 +166,7 @@ void Set_ConfigABP(void)
 
 
   //*********************************************************************
-  Serial2_String_Write("mac set_devaddr FE2318DE");
+  Serial2_String_Write("mac set_devaddr xxxxxxxx");
   str1 = "";
   delay(250);
   str1 = Serial2.readString();
@@ -174,7 +174,7 @@ void Set_ConfigABP(void)
   Serial.println(str1);
 
   //*********************************************************************
-  Serial2_String_Write("mac set_nwkskey 28AED22B7E1516A609CFABF715884F3C");
+  Serial2_String_Write("mac set_nwkskey xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
   str1 = "";
   delay(250);
   str1 = Serial2.readString();
@@ -182,7 +182,7 @@ void Set_ConfigABP(void)
   Serial.println(str1);
 
   //*********************************************************************
-  Serial2_String_Write("mac set_appskey 1628AE2B7E15D2A6ABF7CF4F3C158809");
+  Serial2_String_Write("mac set_appskey xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
   str1 = "";
   delay(250);
   str1 = Serial2.readString();
@@ -233,7 +233,7 @@ void Set_ConfigOTAA(void)
   //*******************************************
 
   //*******************************************
-  Serial2_String_Write("mac set_deveui 00F95284AF601676");
+  Serial2_String_Write("mac set_deveui xxxxxxxxxxxxxxxx");
   delay(100);
   respond = Serial2.readString();
 
@@ -242,7 +242,7 @@ void Set_ConfigOTAA(void)
   //*******************************************
 
   //*******************************************
-  Serial2_String_Write("mac set_appeui 70B3D57ED00100CA");
+  Serial2_String_Write("mac set_appeui xxxxxxxxxxxxxxxx");
   delay(100);
   respond = Serial2.readString();
 
@@ -251,7 +251,7 @@ void Set_ConfigOTAA(void)
   //*******************************************
 
   //*******************************************
-  Serial2_String_Write("mac set_appkey B4005E8875F140F64A2A22711182295B");
+  Serial2_String_Write("mac set_appkey xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
   delay(100);
   respond = Serial2.readString();
 
