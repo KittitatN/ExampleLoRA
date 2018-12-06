@@ -9,7 +9,6 @@
 **********************************************************************/
 #include <Arduino.h>   // required before wiring_private.h
 #include <Wire.h>
-#include <Adafruit_Sensor.h>
 #include <HTS221.h>
 #include "wiring_private.h" // pinPeripheral() function
 
